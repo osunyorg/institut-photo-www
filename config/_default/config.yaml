@@ -17,3 +17,15 @@ params:
   persons:
     single:
       backlinks: true
+  events:
+    index:
+      highlight_exhibitions:
+        future:
+          layout: agenda
+          options:
+            dates: true
+            categories: true
+            image: true
+            status: false
+            subtitle: true
+            summary: false
