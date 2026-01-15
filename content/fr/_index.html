@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2026-01-15T09:59:40+01:00
-lastmod: 2026-01-15T10:08:07+01:00
+lastmod: 2026-01-15T10:29:09+01:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-01-15T09:59:40+01:00
-    updated_at: 2026-01-15T10:08:07+01:00
+    updated_at: 2026-01-15T10:29:09+01:00
     published_at: 2026-01-15T09:59:40+01:00
 search:
   id: "2f0753c0-af21-4cfe-b409-76d5781b0e6a"
@@ -32,7 +32,7 @@ search:
   summary: >-
     
   body: >-
-    
+    <p>Agenda </p>  <p> Expositions </p>
 
 breadcrumbs:
   - title: >-
@@ -72,22 +72,76 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: agenda
+    title: >-
+      Agenda
+    slug: >-
+      agenda
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Agenda
+        heading: 2
+        link: "/agenda/"
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: large
+      description: >-
+        
+
+      no_event_message: >-
+        
+
+      title_link: "/agenda/"
+      events:
+        - permalink: "/agenda/2026/soiree-dinauguration-de-lexposition-les-corps-elastiques/"
+          path: "/events/2026/02/12-soiree-dinauguration-de-lexposition-les-corps-elastiques"
+          slug: "soiree-dinauguration-de-lexposition-les-corps-elastiques"
+          file: "content/fr/events/2026/02/12-soiree-dinauguration-de-lexposition-les-corps-elastiques.html"
+          name: >-
+            Soirée d’inauguration de l'exposition Les corps élastiques
+
+      quantity: 1
 
   - kind: block
     template: exhibitions
     title: >-
-      
+      Expositions
     slug: >-
-      
+      expositions
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Expositions
+        heading: 2
+        link: "/expositions/"
     data:
       mode: all
       options:
