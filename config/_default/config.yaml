@@ -17,6 +17,9 @@ params:
   persons:
     single:
       backlinks: true
+  exhibitions:
+    index:
+      layout: large
   events:
     index:
       highlight_exhibitions:
